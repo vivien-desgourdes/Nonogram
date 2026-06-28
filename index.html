@@ -2088,7 +2088,7 @@ let defiWrongThisDrag=false; // prevent multiple life loss per drag gesture
 let secs=0, timerOn=false, timerRef=null;
 let errors=0, liveScore=0, streak=save.streak||0, solvedSet=new Set(Object.keys(save.solved).map(Number));
 let comboCount=0, comboRef=null, maxComboReached=0;
-let godMode=false;
+let godMode=true;
 let activeColorIdx=1; // 1-based, 0=erase
 let missionBonus=1; // score multiplier from active missions
 // gameMode: 'normal' | 'defi' | 'zen'
