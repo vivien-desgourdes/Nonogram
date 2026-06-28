@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8"/>
+      <stop offset="100%" stop-color="#ede8dc"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3d5a80"/>
+      <stop offset="100%" stop-color="#3d5a80"/>
+    </linearGradient>
+    <linearGradient id="acc2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c75b4e"/>
+      <stop offset="100%" stop-color="#c75b4e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="38" fill="url(#bg)"/>
+  
+  <!-- Grid lines suggestion -->
+  <rect x="23" y="23" width="146" height="146" rx="7" fill="none" stroke="#c8bfa8" stroke-width="2"/>
+  <rect x="25.0" y="25.0" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="54.2" y="25.0" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="83.4" y="25.0" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="112.6" y="25.0" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="25.0" y="54.2" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="112.6" y="54.2" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="25.0" y="83.4" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="54.2" y="83.4" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="83.4" y="83.4" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="112.6" y="83.4" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="25.0" y="112.6" width="25.2" height="25.2" rx="4" fill="url(#acc)"/>
+  <rect x="25.0" y="141.8" width="25.2" height="25.2" rx="4" fill="url(#acc2)"/>
+  <rect x="54.2" y="141.8" width="25.2" height="25.2" rx="4" fill="url(#acc2)"/>
+  <rect x="83.4" y="141.8" width="25.2" height="25.2" rx="4" fill="url(#acc2)"/>
+</svg>
