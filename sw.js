@@ -1,4 +1,5 @@
 const CACHE = 'pictozen-v1';
+const BASE_PATH = '/Nonogram/';
 const ASSETS = [
   './',
   './index.html',
