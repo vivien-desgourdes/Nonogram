@@ -33,4 +33,8 @@ if (typeof PZ !== 'undefined') {
      ]}
   );
 }
+// Trie automatiquement TOUT le catalogue par taille de grille (Largeur x Hauteur)
+if (typeof PZ !== 'undefined') {
+  pz.sort((a, b) => (a.grid[0].length * a.grid.length) - (b.grid[0].length * b.grid.length));
+                               }
 
