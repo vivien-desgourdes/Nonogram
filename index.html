@@ -5,44 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>PictoZen</title>
 
-<!-- SEO & Social -->
-<meta name="description" content="PictoZen — Puzzles Nonogram colorés, missions, succès et mode créateur. Jouez partout, sans connexion.">
-<meta name="keywords" content="nonogram, picross, puzzle, logique, jeu, pictozen">
-<meta name="author" content="PictoZen">
-<meta name="theme-color" content="#f5f0e8">
-
-<!-- Open Graph -->
-<meta property="og:title" content="PictoZen">
-<meta property="og:description" content="Puzzles Nonogram colorés — missions, succès, mode créateur et puzzles aléatoires.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="icons/icon-512.png">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PictoZen">
-<meta name="twitter:description" content="Puzzles Nonogram colorés — jouez partout, sans connexion.">
-
 <!-- PWA -->
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="PictoZen">
 <link rel="manifest" href="manifest.json">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
 
-<!-- Service Worker registration -->
-<script>
-  if('serviceWorker' in navigator){
-    window.addEventListener('load', ()=>{
-      navigator.serviceWorker.register('sw.js')
-        .then(r=>console.log('SW registered'))
-        .catch(e=>console.warn('SW failed:', e));
-    });
-  }
-</script>
-<style>
+  <style>
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap');
 
 :root {
