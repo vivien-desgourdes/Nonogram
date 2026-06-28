@@ -2,7 +2,7 @@
   "name": "PictoZen",
   "short_name": "PictoZen",
   "description": "Puzzles Nonogram colorés — missions, succès et mode créateur",
-  "start_url": "/Nonogram/index.html",
+  "start_url": "index.html",
   "scope": "/Nonogram/",
   "display": "standalone",
   "orientation": "portrait",
