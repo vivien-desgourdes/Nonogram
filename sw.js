@@ -33,15 +33,15 @@ self.addEventListener('fetch', e => {
     );
     return;
   }
-  e.respondWith(
-    caches.match(e.request).then(cached => {
-      if(cached) return cached;
-      return fetch(e.request).then(r => {
-        if(!r || r.status !== 200) return r;
-        const clone = r.clone();
-        caches.open(CACHE).then(c => c.put(e.request, clone));
-        return r;
-      });
-    })
-  );
+e.respondWith(
+  caches.match(e.request).then(cached => {
+    if(cached) return cached;
+    return fetch(e.request).then(r => {
+      if(!r || r.status !== 200) return r;
+      const clone = r.clone();
+      caches.open(CACHE).then(c => c.put(e.request, clone));
+      return r;
+    });
+  })
+);
 });
