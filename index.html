@@ -1745,7 +1745,7 @@ html, body {
   <div class="doodle-text" style="top:38%;right:4%;transform:rotate(5deg)">clic~</div>
 
   <!-- Texte manuscrit "à toi de jouer" — bas droite -->
-  <div class="doodle-text" style="bottom:25%;right:60%;transform:rotate(-4deg)">do ré mi !</div>
+  <div id="date-du-jour" div class="doodle-text" style="bottom:25%;right:60%;transform:rotate(-4deg)">date:</div>
 
   <!-- Texte manuscrit "zen" — gauche -->
   <div class="doodle-text" style="top:30%;left:25%;transform:rotate(8deg)">made in France🗼</div>
@@ -4460,6 +4460,18 @@ initMissions();
 try { loadCustomPuzzlesFromStorage(); } catch(e){ console.warn('Custom load error:', e); }
 buildPicker();
 try { buildPuzzle(0); } catch(e){ console.error('buildPuzzle(0) failed:', e); }
+
+ // Étape 1 : Récupérer la date du jour
+    const aujourdhui = new Date();
+
+    // Étape 2 : La formater en français (ex: 30 juin 2026)
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const dateFormatee = aujourdhui.toLocaleDateString('fr-FR', options);
+
+    // Étape 3 : Injecter la date dans la div
+    document.getElementById('date-du-jour').textContent = dateFormatee;
+  
+  
 </script>
     <div id="lb-title">🏆 Meilleurs Scores</div>
     <div id="lb-tabs">
