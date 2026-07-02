@@ -38,15 +38,6 @@ const PZ = [
   {n:"Sapin",     cat:"Nature",     colors:["#27ae60","#8B5E3C","#f5c842"],
    grid:[[0,0,3,0,0],[0,1,1,1,0],[1,1,1,1,1],[0,1,1,1,0],[0,0,2,0,0]]},
 
-  {n:"Cœur brisé",cat:"Classiques", colors:["#e8445a","#475569"],
-   grid:[
-    [0,1,0,1,0],
-    [1,1,0,2,2],
-    [1,1,0,2,2],
-    [0,1,1,2,0],
-    [0,0,1,0,0]
-   ]}, // Corrigé : Plus de ligne vide en bas, meilleur effet de fissure (couleur 2 pour le morceau détaché)
-
   // ══════════════════════════════════════════
   // ★★ MOYEN — 7×7 & 8×8
   // ══════════════════════════════════════════
